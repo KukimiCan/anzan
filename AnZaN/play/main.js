@@ -113,9 +113,12 @@ document.addEventListener('keyup', function(event) //キー入力を検知
 
     else if (k == "Backspace") //削除
     {
+        if (input_len > 0)
+        {
         input = input.slice( 0, -1 );
         player_ans = nthReplace(player_ans, input_len, "_");
-        input_len --;
+        input_len--;
+        }
     }
     else if (k == "Escape")
     {
