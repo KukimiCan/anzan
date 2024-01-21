@@ -95,11 +95,15 @@ document.addEventListener('keyup', function(event) //キー入力を検知
             }
             else //誤答
             {
+                if (start_flg != 0)
+                {
+                    false_num ++;
+                    time += false_num*1000000000;
+                }
+                
                 input = "";
                 input_len = 0;
                 player_ans = "_".repeat(ans_len);
-                false_num ++;
-                time += false_num*1000000000;
 
                 document.body.style.backgroundColor = "#f4b3c2";
 
