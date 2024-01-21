@@ -149,6 +149,7 @@ window.addEventListener('DOMContentLoaded', function()
 document.addEventListener('keydown', function(event) //キー入力を検知
 {
     let k = event.key;
+    alert(k)
 
     if (k in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"])
     {
