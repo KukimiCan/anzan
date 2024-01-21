@@ -49,8 +49,18 @@ const nthReplace = (str, n, after) => {
     return str.substr(0, n - 1) + after + str.substr(n);
 };
 
+try{
+const input_ = document.querySelector("input");
+input_.addEventListener("input", updateValue);
+function updateValue(e) {
+    document.getElementById("answer").innerText = e.target.value;
+}
+}catch{
 
-document.addEventListener('keyup', function(event) //キー入力を検知
+}
+
+
+document.addEventListener('keydown', function(event) //キー入力を検知
 {
     let k = event.key;
     console.log(k)
