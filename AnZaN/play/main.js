@@ -9,6 +9,7 @@ let player_ans = 0
 let q_num = 0
 let false_num = 0
 let max_q = 10
+let time = 0
 
 sessionStorage.clear();
 
@@ -76,12 +77,13 @@ document.addEventListener('keyup', function(event) //キー入力を検知
                 }
 
                 elapsedTime = Date.now() - startTime;
-                document.getElementById("timer").innerText = elapsedTime;
+                time += elapsedTime;
+                document.getElementById("timer").innerText = time;
                 document.getElementById("timer").style.color = "#000"
                 
                 if (q_num == max_q)
                 {
-                    sessionStorage.setItem('elapsedtime', elapsedTime);
+                    sessionStorage.setItem('elapsedtime', time);
                     sessionStorage.setItem('false_num', false_num);
                     window.location.href = "../result/result.html";
                 }
@@ -97,7 +99,7 @@ document.addEventListener('keyup', function(event) //キー入力を検知
                 input_len = 0;
                 player_ans = "_".repeat(ans_len);
                 false_num ++;
-                elapsedTime += false_num*10000;
+                time += false_num*10000;
 
                 document.body.style.backgroundColor = "#f4b3c2";
 
