@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+p{
+    font-family: Quicksand;
+}
+
+#time{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 20px;
+}
+
+#false_num{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 20px;
+}
+
+#time-display{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50em; */
+    text-align: center;
+    padding-top: 200px;
+    /* background: #000; */
+}
+
+#replay{
+    height: 25px;
+}
+
+#home{
+    height: 23px;
+}
+
+#replay-button{
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 15px;
+}
+
+#home-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 15px;
+}

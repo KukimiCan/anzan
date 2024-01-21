@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body{
+    background-color: #eaf4fc;
+    opacity: 1; /* 追加 */
+    transition: opacity 0.5s ease-in-out; /* 追加 */
+}
+
+#timer{
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #839393;
+}
+
+#question{
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#answer{
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#timer-display{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50em; */
+    text-align: center;
+    padding-top: 150px;
+    /* background: #000; */
+}
+#question-display{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50em; */
+    text-align: center;
+    padding-top: 20px;
+    /* background: #000; */
+}
+
+#answer-display{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50em; */
+    text-align: center;
+    /* background: #000; */
+}

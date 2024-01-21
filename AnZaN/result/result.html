@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>AnZaN</title>
+    <link rel="stylesheet" href="style-result.css">
+</head>
+<body>
+    <div id="time-display">
+        <p id="time"></p>
+        <p id="false_num"></p>
+        <script>
+            const elapsedtime = sessionStorage.getItem('elapsedtime');
+            const false_num = sessionStorage.getItem('false_num');
+            document.getElementById("time").innerText = elapsedtime;
+            document.getElementById("false_num").innerText = false_num;
+        </script>
+    </div>
+    <div id="replay-button">
+        <a href="../play/play.html"><img src="../img/replay.png" id="replay"></a>
+    </div>
+    <div id="home-button">
+        <a href="../index.html"><img src="../img/home.png" id="home"></a>
+    </div>
+    
+</body>
+</html>

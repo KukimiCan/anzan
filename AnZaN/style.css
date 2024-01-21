@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+#title{
+    font-family: Zen Kurenaido;
+    font-size: 64px;
+    font-weight: 300;
+    color: rgb(31, 31, 31);
+    padding-left: 65px;
+}
+
+#startbtn{
+    color: rgb(31, 31, 31);
+    font-family: Zen Kurenaido;
+    font-size: 32px;
+    border: 0;
+    background: #ffffff;
+    outline: 0px solid;
+    outline-color: #51f6dd;
+    outline-offset: 0px;
+    display: inline-block;
+    transition: .3s;
+    text-decoration:none;
+}
+#startbtn:hover {
+    color: #51f6dd;
+    animation: light .8s infinite;
+  }
+  @keyframes light {
+    100% { 
+        outline: 1px solid;
+        outline-color: transparent;
+        outline-offset: 12px;
+    }
+  }
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 18em; */
+    text-align: center;
+    padding-top: 130px;
+    /* background: #000; */
+}
+
+sub{
+    font-size: 24px;
+    font-weight: 400;
+    /* color: #51f6dd; */
+}
+
+#info-box{
+    text-align: right;
+}
+
+#info{
+    height: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+
+
