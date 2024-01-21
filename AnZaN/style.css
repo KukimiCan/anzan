@@ -59,5 +59,10 @@ sub{
     padding-top: 30px;
 }
 
+#copyright{
+    font-family: Zen Kurenaido;
+    position: absolute;
+	bottom: 0;
+}
 
 
