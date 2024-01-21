@@ -8,7 +8,7 @@ let elapsedTime = 0
 let player_ans = 0
 let q_num = 0
 let false_num = 0
-let max_q = 10
+let max_q = 5
 let time = 0
 
 sessionStorage.clear();
