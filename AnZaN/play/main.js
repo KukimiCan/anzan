@@ -98,7 +98,7 @@ document.addEventListener('keyup', function(event) //キー入力を検知
                 if (start_flg != 0)
                 {
                     false_num ++;
-                    time += false_num*1000000000;
+                    time += false_num*10000;
                 }
                 
                 input = "";
