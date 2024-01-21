@@ -27,6 +27,16 @@ body{
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 5px;
+    opacity: 1;
+    position: relative;
+}
+
+#damy{
+    opacity: 0;
+    position: relative;
+    top: -70px;
+    right: 0px;
+    height: 60px;
 }
 
 #timer-display{
